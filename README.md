@@ -147,6 +147,6 @@ ________________________________________________________________________________
 __________________________________________________________________________________________________________________________
     
 :man_technologist:	
-You can see more information in the  
+#### You can see more information in the  
 [Manual Page](https://github.com/m4uricioo/holbertonschool-simple_shell/blob/main/man_1_simple_shell)
 man ./man_1_simple_shell
