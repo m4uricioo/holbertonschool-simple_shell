@@ -10,7 +10,7 @@ SYNOPSIS
 		Interactive mode:
 			./hsh
 
-DESCRIPTION
+.SH DESCRIPTION
 
 		hsh is a command language interpreter that shall execute commands read
 		from a command line string, the standard input, or a specified file.
@@ -38,9 +38,9 @@ OPERANDS
 			execute commands read from a command line string, the standard
 			input, or a specified file.
 
-			commands with and without flags - Example: "ls -l" "pwd" "echo"
+			.BR commands with and without flags - Example: "ls -l" "pwd" "echo"
 
-			commands with path - Example: "/bin/ls -l" "/bin/pwd" "/bin/echo"
+			.BR commands with path - Example: "/bin/ls -l" "/bin/pwd" "/bin/echo"
 
 
 BUILTINS
