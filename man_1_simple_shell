@@ -34,14 +34,21 @@ OPERANDS
     			*  If the file is not in the current working
     			directory, the implementation may perform a search
     			for an executable file using the value of PATH.
+			
+			execute commands read from a command line string, the standard
+			input, or a specified file.
+
+			commands with and without flags - Example: "ls -l" "pwd" "echo"
+
+			commands with path - Example: "/bin/ls -l" "/bin/pwd" "/bin/echo"
+
 
 BUILTINS
 
 		env:
 			Print the enviroment variables.
 
-		exit:
-			Exit the program.
+	
 
 
 AUTHORS
