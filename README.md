@@ -69,23 +69,24 @@ The objective of this project was to mirror how the real shell (sh) works using 
 A simple shell version of the original one.
 
 What our shell can handle:
--:heavy_minus_sign:Executes any command with its arguments
 
--:heavy_minus_sign:Executes any command with its arguments using relative or absolute routes
+:heavy_minus_sign:Executes any command with its arguments
 
--:heavy_minus_sign:Executes built-in commands
+:heavy_minus_sign:Executes any command with its arguments using relative or absolute routes
 
--:heavy_minus_sign:Handles ';' command seperator
+:heavy_minus_sign:Executes built-in commands
 
--:heavy_minus_sign:Handles the "end of file" condition (Ctrl+D)
+:heavy_minus_sign:Handles ';' command seperator
 
--:heavy_minus_sign:Handles errors
+:heavy_minus_sign:Handles the "end of file" condition (Ctrl+D)
 
--:heavy_minus_sign:Handles the PATH
+:heavy_minus_sign:Handles errors
 
--:heavy_minus_sign:Handles exit[arguments] built-in
+:heavy_minus_sign:Handles the PATH
 
--env built-in implemented
+:heavy_minus_sign:Handles exit[arguments] built-in
+
+:heavy_minus_sign:env built-in implemented
 
 
 __________________________________________________________________________________________________________
@@ -138,7 +139,8 @@ ________________________________________________________________________________
 
 ![flow-char shell](https://user-images.githubusercontent.com/113644952/206484364-ea79ef00-57ec-4f5b-8b9d-8f004daefbfa.PNG)
 __________________________________________________________________________________________________________________________
-     :question: :page_facing_up:
+    
+    :question:  :page_facing_up:
 You can see more information in the  
 [Manual Page](https://github.com/m4uricioo/holbertonschool-simple_shell/blob/main/man_1_simple_shell)
 man ./man_1_simple_shell
