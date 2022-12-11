@@ -96,7 +96,7 @@ What our shell can handle:
 | pwd | print working directory |
 __________________________________________________________________________________________________________
 
- Discover some of the processes at work in this shell
+ *Discover some of the processes at work in this shell
 
  A process started by a program is a parent process; a child process is the product of the parent process.
 A parent process can have 
@@ -135,10 +135,7 @@ int main(int argc, char *argv[]) { "names " }
 To pass command line arguments, we normally define main() with two arguments: the first argument is the number of command line arguments and the second argument is the number of command line arguments.
 command line arguments and the second argument is the list of command line arguments.
 
-strtok: allows you to split a string using a demilitator, it takes 2 arguments: 1) string to split 2) delimiters
-
-</p>
-</div>
+strtok: allows you to split a string using a demilitator, it takes 2 arguments: 1) string to split 2) delimiters*
 
 _________________________________________________________________________________________________________________________
  *Flowchart   -  Graphical representation of an algorithm or process*  
