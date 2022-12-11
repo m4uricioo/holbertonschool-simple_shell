@@ -16,6 +16,7 @@ How to suspend the execution of a process until one of its children terminates
  
  
  ## General Requirements 
+~~~
 Allowed editors: vi, vim, emacs
 All your files will be compiled on Ubuntu 20.04 LTS using gcc, using the options
 
@@ -34,7 +35,7 @@ No more than 5 functions per file
 
 All your header files should be include guarde
 
-
+~~~
 
 _________________________________________________________________________________________________________________________________
    ## What its a Shell?  :sparkle:
