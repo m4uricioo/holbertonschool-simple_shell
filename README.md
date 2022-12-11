@@ -49,7 +49,7 @@ All your header files should be include guarde
 
 
 _________________________________________________________________________________________________________________________________
- What its a Shell?
+  :sparkle:	 What its a Shell?
  A shell is a text-based terminal, used for manipulating programs and files. Shell scripts typically manage program execution.
   Is an interface to the operating system. It acts as a command interpreter,
 
