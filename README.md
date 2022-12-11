@@ -141,8 +141,10 @@ strtok: allows you to split a string using a demilitator, it takes 2 arguments: 
 </div>
 
 _________________________________________________________________________________________________________________________
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/113644952/206484364-ea79ef00-57ec-4f5b-8b9d-8f004daefbfa.PNG" />
+</p>
 
-![flow-char shell](https://user-images.githubusercontent.com/113644952/206484364-ea79ef00-57ec-4f5b-8b9d-8f004daefbfa.PNG)
 __________________________________________________________________________________________________________________________
     
 :man_technologist:	
