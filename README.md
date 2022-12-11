@@ -54,6 +54,14 @@ ________________________________________________________________________________
   Is an interface to the operating system. It acts as a command interpreter,
 
 it takes each commands and passes it to the operating system.
+
+![shell2f](https://user-images.githubusercontent.com/113644952/206926217-cbc3fc70-9088-40d1-9262-c0dfa3938d42.png)
+
+
+
+There are two primary components of the Linux Operating System , the kernel and the shell.
+ As the core of the Linux OS, the kernel handles all of the low-level heavy lifting such as 
+managing processes, system and user input/output (“I/O”), and interfacing directly with the system hardware.
  ________________________________________________________________________________________________________________________________
 :newspaper: Simple Shell project 
 Introduction :hammer:
@@ -88,7 +96,14 @@ What our shell can handle:
 
 :heavy_minus_sign:env built-in implemented
 
-
+| Command | Description |
+| --- | --- |
+| ls  | List files in the directory |
+| pwd | print working directory |
+| cat  | show file |
+| echo |  display line string that are passed as an argument |
+| env |  display your current environment |
+| pwd | print working directory |
 __________________________________________________________________________________________________________
 
  Discover some of the processes at work in this shell
