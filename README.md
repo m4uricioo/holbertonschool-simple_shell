@@ -125,18 +125,17 @@ create, delete, open, close, write and read).
 wait is a system call 
 sleep system call
 open system call 
-*fork() create process
+fork() create process
 getline is not a system call 
-*getline reads a complete line from stream1, storing the address of the buffer containing the text in *lineptr, the buffer ends in null.
+getline reads a complete line from stream1, storing the address of the buffer containing the text in *lineptr, the buffer ends in null.
 
-*Command line arguments are given after the program name in the operating systems command interpreter. 
+Command line arguments are given after the program name in the operating systems command interpreter. 
 
 int main(int argc, char *argv[]) { "names " }
 
 To pass command line arguments, we normally define main() with two arguments: the first argument is the number of command line arguments and the second argument is the number of command line arguments.
 command line arguments and the second argument is the list of command line arguments.
-
-*strtok: allows you to split a string using a demilitator, it takes 2 arguments: 1) string to split 2) delimiters
+strtok: allows you to split a string using a demilitator, it takes 2 arguments: 1) string to split 2) delimiters
 
 _________________________________________________________________________________________________________________________
  *Flowchart   -  Graphical representation of an algorithm or process*  
