@@ -57,9 +57,9 @@ managing processes, system and user input/output (“I/O”), and interfacing di
 Introduction :hammer:
 
 
-
-This simple shell project is project. It consists of developing and making our own UNIX command interpreter (Shell).
-
+~~~
+This simple shell project. It consists of developing and making our own UNIX command interpreter (Shell).
+~~~
 
 
 About this project
