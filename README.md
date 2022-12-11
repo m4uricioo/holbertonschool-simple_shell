@@ -135,7 +135,7 @@ To pass command line arguments, we normally define main() with two arguments: th
 
 strtok: allows you to split a string using a demilitator, it takes 2 arguments: 1) string to split 2) delimiters
 
-Translated with www.DeepL.com/Translator (free version)</p>
+</p>
 </div>
 
 
