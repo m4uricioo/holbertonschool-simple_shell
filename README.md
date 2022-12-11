@@ -95,10 +95,9 @@ What our shell can handle:
 | env |  display your current environment |
 | pwd | print working directory |
 __________________________________________________________________________________________________________
+*Discover some of the processes at work in this shell*
 
-*Discover some of the processes at work in this shell
-
-*A process started by a program is a parent process; a child process is the product of the parent process.
+A process started by a program is a parent process; a child process is the product of the parent process.
 A parent process can have 
 have several child processes, but a child process can only have one parent
 wait
