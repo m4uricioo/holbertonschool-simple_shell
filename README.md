@@ -98,8 +98,8 @@ ________________________________________________________________________________
 
  Discover some of the processes at work in this shell
 
-   A process started by a program is a parent process; a child process is the product of the parent process.
- A parent process can have 
+ A process started by a program is a parent process; a child process is the product of the parent process.
+A parent process can have 
 have several child processes, but a child process can only have one parent
 wait
 The wait function causes the process to wait for the termination of any child and returns the PID of the child process. 
@@ -109,27 +109,29 @@ The duplicate shares the current values of all variables, files and other data s
  other data structures. The call to fork returns to the parent process 
 the identifier of the child process and returns a zero to the child process.
   execve() executes the program referenced by pathname.  This
-       causes the program being executed by the process to be replaced by a new program.
-       to be replaced by a new program.
+  causes the program being executed by the process to be replaced by a new program.
+  to be replaced by a new program.
 system call asks the system for permission to use its resources.
- SYSTEM CALL allows us to make use of resources.  
+SYSTEM CALL allows us to make use of resources.  
 System calls are how a program 
 enters the kernel to perform some task.
 There are 5 different categories of system calls: process control, file manipulation, device manipulation, data maintenance, and information maintenance, 
 device manipulation, information maintenance and communication
 They can be used as control units for communication between application processes.
- These file manipulation methods include creating, deleting, opening, closing,
- writing and reading
+These file manipulation methods include creating, deleting, opening, closing,
+writing and reading
 create, delete, open, close, write and read).
- wait is a system call 
+wait is a system call 
 sleep system call
 open system call 
- fork create process
+fork() create process
 getline is NOT a system call 
 getline reads a complete line from stream1, storing the address of the buffer containing the text in *lineptr, the buffer ends in null.
 
 Command line arguments are given after the program name in the operating systems command interpreter. 
+
 int main(int argc, char *argv[]) { "names " }
+
 To pass command line arguments, we normally define main() with two arguments: the first argument is the number of command line arguments and the second argument is the number of command line arguments.
  command line arguments and the second argument is the list of command line arguments.
 
