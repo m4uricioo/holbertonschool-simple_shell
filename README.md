@@ -140,7 +140,7 @@ ________________________________________________________________________________
 ![flow-char shell](https://user-images.githubusercontent.com/113644952/206484364-ea79ef00-57ec-4f5b-8b9d-8f004daefbfa.PNG)
 __________________________________________________________________________________________________________________________
     
-    :question:  :page_facing_up:
+    :question: 
 You can see more information in the  
 [Manual Page](https://github.com/m4uricioo/holbertonschool-simple_shell/blob/main/man_1_simple_shell)
 man ./man_1_simple_shell
