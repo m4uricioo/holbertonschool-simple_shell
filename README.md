@@ -43,8 +43,10 @@ ________________________________________________________________________________
 
 it takes each commands and passes it to the operating system.
 
-![shell2f](https://user-images.githubusercontent.com/113644952/206926217-cbc3fc70-9088-40d1-9262-c0dfa3938d42.png)
 
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/113644952/206926217-cbc3fc70-9088-40d1-9262-c0dfa3938d42.png" />
+</p>
 
 
 There are two primary components of the Linux Operating System , the kernel and the shell.
