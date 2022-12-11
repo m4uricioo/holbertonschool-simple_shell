@@ -145,5 +145,5 @@ strtok: allows you to split a string using a demilitator, it takes 2 arguments: 
 __________________________________________________________________________________________________________________________
 
 You can see more information in the  
-[Manual Page](https://github.com/m4uricioo/holbertonschool-simple_shell/blob/main/man_1_simple_shell).
+[Manual Page](https://github.com/m4uricioo/holbertonschool-simple_shell/blob/main/man_1_simple_shell)
 man ./man_1_simple_shell
