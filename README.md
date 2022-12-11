@@ -94,11 +94,11 @@ What our shell can handle:
 -Handles interactive mode
 
 -Handles non-interactive mode
+__________________________________________________________________________________________________________
 
+ Discover some of the processes at work in this shell
 
-<button class="accordion"> Discover some of the processes at work in this shell</button>
-<div class="panel">
-  <p> A process started by a program is a parent process; a child process is the product of the parent process.
+   A process started by a program is a parent process; a child process is the product of the parent process.
  A parent process can have 
 have several child processes, but a child process can only have one parent
 wait
@@ -145,5 +145,5 @@ strtok: allows you to split a string using a demilitator, it takes 2 arguments: 
 __________________________________________________________________________________________________________________________
 
 You can see more information in the manual page 
-
+[Manual Page](https://github.com/m4uricioo/holbertonschool-simple_shell/blob/main/man_1_simple_shell).
 man ./man_1_simple_shell
