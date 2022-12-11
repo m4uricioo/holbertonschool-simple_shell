@@ -69,31 +69,25 @@ The objective of this project was to mirror how the real shell (sh) works using 
 A simple shell version of the original one.
 
 What our shell can handle:
--Executes any command with its arguments
+-:heavy_minus_sign:Executes any command with its arguments
 
--Executes any command with its arguments using relative or absolute routes
+-:heavy_minus_sign:Executes any command with its arguments using relative or absolute routes
 
--Executes built-in commands
+-:heavy_minus_sign:Executes built-in commands
 
--Handles ';' command seperator
+-:heavy_minus_sign:Handles ';' command seperator
 
--Handles the "end of file" condition (Ctrl+D)
+-:heavy_minus_sign:Handles the "end of file" condition (Ctrl+D)
 
--Handles errors
+-:heavy_minus_sign:Handles errors
 
--Handles the PATH
+-:heavy_minus_sign:Handles the PATH
 
--Handles exit[arguments] built-in
+-:heavy_minus_sign:Handles exit[arguments] built-in
 
 -env built-in implemented
 
--Handles Ctrl+C
 
--Handles comments (#)
-
--Handles interactive mode
-
--Handles non-interactive mode
 __________________________________________________________________________________________________________
 
  Discover some of the processes at work in this shell
@@ -133,19 +127,18 @@ Command line arguments are given after the program name in the operating systems
 int main(int argc, char *argv[]) { "names " }
 
 To pass command line arguments, we normally define main() with two arguments: the first argument is the number of command line arguments and the second argument is the number of command line arguments.
- command line arguments and the second argument is the list of command line arguments.
+command line arguments and the second argument is the list of command line arguments.
 
 strtok: allows you to split a string using a demilitator, it takes 2 arguments: 1) string to split 2) delimiters
 
 </p>
 </div>
 
+_________________________________________________________________________________________________________________________
 
 ![flow-char shell](https://user-images.githubusercontent.com/113644952/206484364-ea79ef00-57ec-4f5b-8b9d-8f004daefbfa.PNG)
-
-
 __________________________________________________________________________________________________________________________
-
+     :question: :page_facing_up:
 You can see more information in the  
 [Manual Page](https://github.com/m4uricioo/holbertonschool-simple_shell/blob/main/man_1_simple_shell)
 man ./man_1_simple_shell
