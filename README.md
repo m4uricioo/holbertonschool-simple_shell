@@ -78,8 +78,6 @@ What our shell can handle:
 
 :heavy_minus_sign:Handles ';' command seperator
 
-:heavy_minus_sign:Handles the "end of file" condition (Ctrl+D)
-
 :heavy_minus_sign:Handles errors
 
 :heavy_minus_sign:Handles the PATH
