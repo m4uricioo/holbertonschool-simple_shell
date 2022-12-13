@@ -60,8 +60,14 @@ char *get_line(void)
 
 	char *l = NULL;
 	unsigned long bufsize = 0;
+	int a;
 
-	getline(&l, &bufsize, stdin);
+	a = getline(&l, &bufsize, stdin);
+	if (a == -1)
+	{
+		free(l);
+		exit(EXIT_SUCCESS);
+	}
 
 	return (l);
 }
