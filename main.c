@@ -57,7 +57,7 @@ int exec_com(char **comand)
 
 	pid = fork();
 	if (pid == 0 && execve(comand[0], comand, environ) == -1)
-		perror("error"); 
+		perror("error");
 
 	else
 		wait(&pid);
