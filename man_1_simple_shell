@@ -1,6 +1,17 @@
 NAME
 
 		hsh - Simple shell, command language interpreter.
+                
+                Libraries
+
+		 <stdio.h>
+		 <stdlib.h>
+		 <string.h>
+		 <unistd.h>
+		 <sys/types.h>
+		 <sys/stat.h>
+		 <sys/wait.h>
+
 
 SYNOPSIS
 
@@ -10,7 +21,7 @@ SYNOPSIS
 		Interactive mode:
 			./hsh
 
-DESCRIPTION
+ DESCRIPTION
 
 		hsh is a command language interpreter that shall execute commands read
 		from a command line string, the standard input, or a specified file.
@@ -34,16 +45,23 @@ OPERANDS
     			*  If the file is not in the current working
     			directory, the implementation may perform a search
     			for an executable file using the value of PATH.
+			
+			execute commands read from a command line string, the standard
+			input, or a specified file.
+
+			 commands with and without flags - Example: "ls -l" "pwd" "echo"
+                           
+			 commands with path - Example: "/bin/ls -l" "/bin/pwd" "/bin/echo"
+
 
 BUILTINS
 
 		env:
 			Print the enviroment variables.
 
-		exit:
-			Exit the program.
+	
 
 
 AUTHORS
 		Adrian Belen   
-		Mauricio Correa 
+		Mauricio Correa
